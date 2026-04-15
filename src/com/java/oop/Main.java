@@ -3,6 +3,26 @@ package com.java.oop;
 public class Main {
     static void main() {
 
+
+        Customer customer = new Customer();
+
+        customer.name = "Nanadha Kishore";
+        customer.age = 20;
+        customer.address = "2-102 Kothapalem, Gopalpatnam, Visakhapatnam, Andhra pradesh 530027";
+        customer.emailId = "kish6718nandha@gmail.com";
+        customer.gender = "Male";
+        customer.phoneNo = 8885332934L;
+
+        System.out.println("-------------------");
+        System.out.println("Customer Details");
+        System.out.println("-------------------");
+        System.out.println("Name: " + customer.name);
+        System.out.println("Email ID: " + customer.emailId);
+        System.out.println("age: " + customer.age);
+        System.out.println("Phone No: " + customer.phoneNo);
+        System.out.println("Address: " + customer.address);
+        System.out.println("Gender: " + customer.gender);
+
         Product product = new Product();
 
         product.id = 2344;
@@ -56,6 +76,8 @@ public class Main {
         System.out.println("Delivery: " + product2.fastDelivery);
         System.out.println("company: " + product2.company);
         System.out.println("category: " + product2.category);
+
+
 
     }
 }
