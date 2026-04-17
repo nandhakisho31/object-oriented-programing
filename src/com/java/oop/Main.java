@@ -13,6 +13,10 @@ public class Main {
         customer.gender = "Male";
         customer.phoneNo = 8885332934L;
 
+        Customer customer2 = new Customer();
+
+        Customer customer1 = new Customer("kishore","kish@gmail.com",888633293L,"kish6718",20,"Address");
+
         System.out.println("-------------------");
         System.out.println("Customer Details");
         System.out.println("-------------------");
@@ -22,6 +26,26 @@ public class Main {
         System.out.println("Phone No: " + customer.phoneNo);
         System.out.println("Address: " + customer.address);
         System.out.println("Gender: " + customer.gender);
+
+        System.out.println("-------------------");
+        System.out.println("Customer2 Details");
+        System.out.println("-------------------");
+        System.out.println("Name: " + customer1.name);
+        System.out.println("Email ID: " + customer1.emailId);
+        System.out.println("age: " + customer1.age);
+        System.out.println("Phone No: " + customer1.phoneNo);
+        System.out.println("Address: " + customer1.address);
+        System.out.println("Gender: " + customer1.gender);
+
+        System.out.println("-------------------");
+        System.out.println("Customer3 Details");
+        System.out.println("-------------------");
+        System.out.println("Name: " + customer2.name);
+        System.out.println("Email ID: " + customer2.emailId);
+        System.out.println("age: " + customer2.age);
+        System.out.println("Phone No: " + customer2.phoneNo);
+        System.out.println("Address: " + customer2.address);
+        System.out.println("Gender: " + customer2.gender);
 
         Product product = new Product();
 
@@ -79,5 +103,7 @@ public class Main {
 
 
 
+
     }
+
 }
