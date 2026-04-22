@@ -61,6 +61,10 @@ public class Main {
         product.category = "Laptop";
 
         Product product2 = new Product();
+        Product product3 = new Product();
+
+        product3.id = 345;
+        product3.name = "nnn";
 
         product2.id = 2544;
         product2.name = "IdeaPad Slim 3 13th Gen Core i7-13620H 15.3\" (38.8cm) WUXGA IPS Laptop (16GB RAM/1TB SSD/Win 11/Office 2024/Backlit/1Yr ADP Free/Top Metal Cover & IR Camera/Grey/1.6Kg), 83K100TDIN";
@@ -100,6 +104,8 @@ public class Main {
         System.out.println("Delivery: " + product2.fastDelivery);
         System.out.println("company: " + product2.company);
         System.out.println("category: " + product2.category);
+
+
 
 
 

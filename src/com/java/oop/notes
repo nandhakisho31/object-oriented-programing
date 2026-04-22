@@ -1,0 +1,62 @@
+Java Methods
+
+—  Arugument returnType Method —
+
+methodname :  updateCustomerAddress(){}
+Argument : String
+— Need to take input
+— Success
+
+Boolean updateCustomerAddress(String address){
+    }
+     updateCustomerAddress(String address);
+
+String updateCustomerAddress(){
+}
+      updateCustomerAddress(String address);
+
+3 and 4 Methodname :
+boolean updateCustomerActiveStatus (int customerId, boolean Status){
+}
+updateCustomerAccountStatus(1274388,true);
+
+boolean iscustomerNumberValidStatus(lng contactNumber, boolean){
+}
+
+customerNumberValidStatus(9929293892,True);
+
+--- Part 2 ---
+--- 6 ---
+
+int finalCalculatedOrderValue(Order order){
+}
+int finalCalculatedOrderValue
+
+
+--------- Payment Class -----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
