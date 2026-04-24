@@ -12,7 +12,7 @@ public class Product {
     String category;
     String fastDelivery;
 
-    Product () {
+    public Product () {
         id = 205;
         name = "Lenovo Laptop";
         maxRetailPrice = 438;
