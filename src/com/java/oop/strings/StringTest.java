@@ -73,6 +73,8 @@ public class StringTest {
         System.out.println(password1.trim().length());
         int phoneno = 324234;
         System.out.println( String.valueOf(phoneno));
-    }
 
+        //1. Reverse a string
+
+        }
 }
