@@ -105,11 +105,6 @@ public class Main {
         System.out.println("company: " + product2.company);
         System.out.println("category: " + product2.category);
 
-
-
-
-
-
     }
 
 }
